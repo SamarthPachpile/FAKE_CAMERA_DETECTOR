@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical = "20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/title_bg"
+        android:textColor="@color/black"
+        android:text="@string/page_title"
+    />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:text="@string/app_description"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:paddingHorizontal="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/lbl"
+        />
+
+    <TextView
+        android:id="@+id/detected_cameras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:paddingHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="90sp"
+        android:textColor="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© Created By Samarth | 2024"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="5dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit My website on"
+            android:textColor="@color/black"
+        android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://samarthpachpile.github.io/Portfolio/"
+            android:textColor="@color/link"
+            android:padding="5dp" />
+    </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

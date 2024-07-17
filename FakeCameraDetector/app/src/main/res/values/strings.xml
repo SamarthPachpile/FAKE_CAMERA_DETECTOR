@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fake Camera Detector</string>
+
+    <string name="page_title">Fake Camera Detector</string>
+
+    <string name="app_description">
+        This Application helps you find out if there are fake cameras on your phone or not.
+        The number you see below is the number of camera(s) this app could detect. For example
+        if there are 4 cameras (including the front camera) on your phone but you see here 3, then
+        it means that there is 1(one) fake camera. Since on many device there are many fake cameras just for the style.
+        I have tested this app on multiple device so dont worry its works fluid.....
+    </string>
+
+    <string name="lbl">Number of Camera(s) on this device</string>
+
+</resources>
