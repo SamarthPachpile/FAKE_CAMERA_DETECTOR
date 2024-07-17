@@ -1,2 +1,4 @@
 # FAKE_CAMERA_DETECTOR
-privacy policy page for my android app "FAKE CAMERA DETECTOR"
+Hii there Hope staying rized up......
+
+Glad to share you about my new project on Android app development 
